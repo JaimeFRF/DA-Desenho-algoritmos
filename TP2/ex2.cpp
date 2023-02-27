@@ -4,26 +4,25 @@
 #include "exercises.h"
 
 bool subsetSumBF(unsigned int A[], unsigned int n, unsigned int T, unsigned int subset[], unsigned int &subsetSize) {
-    if(T == 0)
+    if (T == 0)
         return true;
 
-    if(n == 0)
+    if (n == 0)
         return false;
     /*
     if(A[n -1] > T)
         return subsetSumBF(A, n - 1, T, subset, subsetSize);
         Is this necessary?
     */
-    if(subsetSumBF(A, n - 1, T, subset, subsetSize)){
+    if (subsetSumBF(A, n - 1, T, subset, subsetSize)) {
         return true;
     }
 
-    if(subsetSumBF(A, n - 1, T - A[n - 1], subset, subsetSize)){
+    if (subsetSumBF(A, n - 1, T - A[n - 1], subset, subsetSize)) {
         subset[subsetSize] = A[n - 1];
         subsetSize++;
         return true;
     }
-
 
 }
 
