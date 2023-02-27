@@ -3,8 +3,25 @@
 #include "exercises.h"
 
 int maxSubsequenceBF(int A[], unsigned int n, unsigned int &i, unsigned int &j) {
-    // TODO
-    return 0;
+    int max = INT16_MIN;
+
+    for(int h = 0; h < (n - 1); h++){
+        int res = A[h];
+        for(int k = (h + 1); k < n; k++){
+            res += A[k];
+            if(res > max){
+                max = res;
+                i = h;
+                j = k;
+            }
+        }
+    }
+    int res = 0;
+    for(int h = i; h < (j + 1); h++){
+        res += A[h];
+    }
+
+    return res;
 }
 
 

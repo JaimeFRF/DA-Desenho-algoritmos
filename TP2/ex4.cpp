@@ -3,7 +3,12 @@
 #include "exercises.h"
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    // TODO
+    if(T == 0){
+        return true;
+    }
+
+
+
     return false;
 }
 
