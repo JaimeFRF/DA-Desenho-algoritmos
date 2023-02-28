@@ -3,11 +3,20 @@
 #include "exercises.h"
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    if(T == 0){
+    if(T == 0)
         return true;
+
+    for(int i = (n - 1); i >= 0; i--){
+        if(Stock[i] == 0 || C[i] > T)
+            return false;
+        Stock[i]--;
+        usedCoins[i]++;
+        if(changeMakingBF(C, Stock, n, T - C[i], usedCoins)){
+            return true;
+        }
+        Stock[i]++;
+        usedCoins[i]--;
     }
-
-
 
     return false;
 }
@@ -19,22 +28,28 @@ TEST(TP2_Ex4, hasBFChangeCanonical) {
     unsigned int C[] = {1,2,5,10};
     unsigned int Stock[] = {1,1,1,1};
     unsigned int n = 4;
-    unsigned int usedCoins[4];
+    unsigned int usedCoins[4] = {0};
 
     EXPECT_EQ(changeMakingBF(C,Stock,n,13,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 1);
     EXPECT_EQ(usedCoins[1], 1);
     EXPECT_EQ(usedCoins[2], 0);
     EXPECT_EQ(usedCoins[3], 1);
-
     unsigned int Stock2[] = {1,2,4,2};
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
+    usedCoins[3] = 0;
     EXPECT_EQ(changeMakingBF(C,Stock2,n,38,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 1);
     EXPECT_EQ(usedCoins[1], 1);
     EXPECT_EQ(usedCoins[2], 3);
     EXPECT_EQ(usedCoins[3], 2);
-
     unsigned int Stock3[] = {10,2,4,2};
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
+    usedCoins[3] = 0;
     EXPECT_EQ(changeMakingBF(C,Stock3,n,10,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 0);
     EXPECT_EQ(usedCoins[1], 0);
@@ -47,29 +62,42 @@ TEST(TP2_Ex4, hasBFChangeNonCanonical) {
     unsigned int Stock[] = {2,2,1};
     unsigned int n = 3;
     unsigned int usedCoins[3];
-
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
     EXPECT_EQ(changeMakingBF(C,Stock,n,6,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 1);
     EXPECT_EQ(usedCoins[1], 0);
     EXPECT_EQ(usedCoins[2], 1);
-
+    Stock[0] = 2;
+    Stock[1] = 2;
+    Stock[2] = 1;
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
     EXPECT_EQ(changeMakingBF(C,Stock,n,8,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 0);
     EXPECT_EQ(usedCoins[1], 2);
     EXPECT_EQ(usedCoins[2], 0);
-
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
     unsigned int Stock2[] = {8,2,1};
     EXPECT_EQ(changeMakingBF(C,Stock2,n,7,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 2);
     EXPECT_EQ(usedCoins[1], 0);
     EXPECT_EQ(usedCoins[2], 1);
-
+    usedCoins[0] = 0;
+    usedCoins[1] = 0;
+    usedCoins[2] = 0;
+    Stock2[0] = 8;
+    Stock[1] = 2;
+    Stock[2] = 1;
     EXPECT_EQ(changeMakingBF(C,Stock2,n,8,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 0);
     EXPECT_EQ(usedCoins[1], 2);
     EXPECT_EQ(usedCoins[2], 0);
 }
-
 TEST(TP2_Ex4, hasNoBFChange) {
     unsigned int C[] = {1,2,5,10};
     unsigned int Stock[] = {0,1,1,1};
