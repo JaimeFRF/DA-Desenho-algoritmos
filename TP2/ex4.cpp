@@ -8,7 +8,7 @@ bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsi
 
     for(int i = (n - 1); i >= 0; i--){
         if(Stock[i] == 0 || C[i] > T)
-            return false;
+            continue;
         Stock[i]--;
         usedCoins[i]++;
         if(changeMakingBF(C, Stock, n, T - C[i], usedCoins)){

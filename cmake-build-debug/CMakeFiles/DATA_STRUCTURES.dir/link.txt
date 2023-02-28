@@ -1,2 +1,0 @@
-/usr/bin/ar qc libDATA_STRUCTURES.a CMakeFiles/DATA_STRUCTURES.dir/data_structures/Graph.cpp.o CMakeFiles/DATA_STRUCTURES.dir/data_structures/Heap.cpp.o CMakeFiles/DATA_STRUCTURES.dir/data_structures/UFDS.cpp.o CMakeFiles/DATA_STRUCTURES.dir/data_structures/VertexEdge.cpp.o
-/usr/bin/ranlib libDATA_STRUCTURES.a
