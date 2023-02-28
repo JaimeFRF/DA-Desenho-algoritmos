@@ -4,7 +4,17 @@
 
 Result nearestPointsBF(std::vector<Point> &vp) {
     Result res;
-    // TODO
+    res.dmin = INT16_MAX;
+    for(Point x : vp){
+        for(Point y : vp){
+            if(!(x == y || x.distance(y) >= res.dmin)){
+                res.dmin = x.distance(y);
+                res.p1 = x;
+                res.p2 = y;
+            }
+        }
+    }
+
     return res;
 }
 
