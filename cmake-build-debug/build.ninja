@@ -54,32 +54,24 @@ build CMakeFiles/DATA_STRUCTURES.dir/data_structures/Graph.cpp.o: CXX_COMPILER__
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles/DATA_STRUCTURES.dir
   OBJECT_FILE_DIR = CMakeFiles/DATA_STRUCTURES.dir/data_structures
-  TARGET_COMPILE_PDB = CMakeFiles/DATA_STRUCTURES.dir/DATA_STRUCTURES.pdb
-  TARGET_PDB = libDATA_STRUCTURES.pdb
 
 build CMakeFiles/DATA_STRUCTURES.dir/data_structures/Heap.cpp.o: CXX_COMPILER__DATA_STRUCTURES_Debug /home/jaimefrf/Desktop/DA-QuickStart/data_structures/Heap.cpp || cmake_object_order_depends_target_DATA_STRUCTURES
   DEP_FILE = CMakeFiles/DATA_STRUCTURES.dir/data_structures/Heap.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles/DATA_STRUCTURES.dir
   OBJECT_FILE_DIR = CMakeFiles/DATA_STRUCTURES.dir/data_structures
-  TARGET_COMPILE_PDB = CMakeFiles/DATA_STRUCTURES.dir/DATA_STRUCTURES.pdb
-  TARGET_PDB = libDATA_STRUCTURES.pdb
 
 build CMakeFiles/DATA_STRUCTURES.dir/data_structures/UFDS.cpp.o: CXX_COMPILER__DATA_STRUCTURES_Debug /home/jaimefrf/Desktop/DA-QuickStart/data_structures/UFDS.cpp || cmake_object_order_depends_target_DATA_STRUCTURES
   DEP_FILE = CMakeFiles/DATA_STRUCTURES.dir/data_structures/UFDS.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles/DATA_STRUCTURES.dir
   OBJECT_FILE_DIR = CMakeFiles/DATA_STRUCTURES.dir/data_structures
-  TARGET_COMPILE_PDB = CMakeFiles/DATA_STRUCTURES.dir/DATA_STRUCTURES.pdb
-  TARGET_PDB = libDATA_STRUCTURES.pdb
 
 build CMakeFiles/DATA_STRUCTURES.dir/data_structures/VertexEdge.cpp.o: CXX_COMPILER__DATA_STRUCTURES_Debug /home/jaimefrf/Desktop/DA-QuickStart/data_structures/VertexEdge.cpp || cmake_object_order_depends_target_DATA_STRUCTURES
   DEP_FILE = CMakeFiles/DATA_STRUCTURES.dir/data_structures/VertexEdge.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles/DATA_STRUCTURES.dir
   OBJECT_FILE_DIR = CMakeFiles/DATA_STRUCTURES.dir/data_structures
-  TARGET_COMPILE_PDB = CMakeFiles/DATA_STRUCTURES.dir/DATA_STRUCTURES.pdb
-  TARGET_PDB = libDATA_STRUCTURES.pdb
 
 
 # =============================================================================
@@ -94,9 +86,8 @@ build libDATA_STRUCTURES.a: CXX_STATIC_LIBRARY_LINKER__DATA_STRUCTURES_Debug CMa
   OBJECT_DIR = CMakeFiles/DATA_STRUCTURES.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/DATA_STRUCTURES.dir/DATA_STRUCTURES.pdb
   TARGET_FILE = libDATA_STRUCTURES.a
-  TARGET_PDB = libDATA_STRUCTURES.pdb
+  TARGET_PDB = DATA_STRUCTURES.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target CLOSEST_POINT_PAIR
@@ -113,8 +104,6 @@ build CMakeFiles/CLOSEST_POINT_PAIR.dir/running_examples/closest_point_pair/Clos
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/CLOSEST_POINT_PAIR.dir
   OBJECT_FILE_DIR = CMakeFiles/CLOSEST_POINT_PAIR.dir/running_examples/closest_point_pair
-  TARGET_COMPILE_PDB = CMakeFiles/CLOSEST_POINT_PAIR.dir/CLOSEST_POINT_PAIR.pdb
-  TARGET_PDB = libCLOSEST_POINT_PAIR.pdb
 
 
 # =============================================================================
@@ -129,9 +118,8 @@ build libCLOSEST_POINT_PAIR.a: CXX_STATIC_LIBRARY_LINKER__CLOSEST_POINT_PAIR_Deb
   OBJECT_DIR = CMakeFiles/CLOSEST_POINT_PAIR.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CLOSEST_POINT_PAIR.dir/CLOSEST_POINT_PAIR.pdb
   TARGET_FILE = libCLOSEST_POINT_PAIR.a
-  TARGET_PDB = libCLOSEST_POINT_PAIR.pdb
+  TARGET_PDB = CLOSEST_POINT_PAIR.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP1
@@ -148,8 +136,6 @@ build CMakeFiles/TP1.dir/main.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/TestAux.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/TestAux.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/TestAux.cpp.o.d
@@ -157,8 +143,6 @@ build CMakeFiles/TP1.dir/TP1/TestAux.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimef
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex1.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex1.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex1.cpp.o.d
@@ -166,8 +150,6 @@ build CMakeFiles/TP1.dir/TP1/ex1.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex2.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex2.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex2.cpp.o.d
@@ -175,8 +157,6 @@ build CMakeFiles/TP1.dir/TP1/ex2.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex3.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex3.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex3.cpp.o.d
@@ -184,8 +164,6 @@ build CMakeFiles/TP1.dir/TP1/ex3.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex4.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex4.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex4.cpp.o.d
@@ -193,8 +171,6 @@ build CMakeFiles/TP1.dir/TP1/ex4.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex5.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex5.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex5.cpp.o.d
@@ -202,8 +178,6 @@ build CMakeFiles/TP1.dir/TP1/ex5.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex6.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex6.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex6.cpp.o.d
@@ -211,8 +185,6 @@ build CMakeFiles/TP1.dir/TP1/ex6.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex8.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex8.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex8.cpp.o.d
@@ -220,8 +192,6 @@ build CMakeFiles/TP1.dir/TP1/ex8.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 build CMakeFiles/TP1.dir/TP1/ex9.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP1/ex9.cpp || cmake_object_order_depends_target_TP1
   DEP_FILE = CMakeFiles/TP1.dir/TP1/ex9.cpp.o.d
@@ -229,8 +199,6 @@ build CMakeFiles/TP1.dir/TP1/ex9.cpp.o: CXX_COMPILER__TP1_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP1.dir
   OBJECT_FILE_DIR = CMakeFiles/TP1.dir/TP1
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
-  TARGET_PDB = TP1.pdb
 
 
 # =============================================================================
@@ -246,9 +214,8 @@ build TP1: CXX_EXECUTABLE_LINKER__TP1_Debug CMakeFiles/TP1.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP1.dir/
   TARGET_FILE = TP1
-  TARGET_PDB = TP1.pdb
+  TARGET_PDB = TP1.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP2
@@ -265,8 +232,6 @@ build CMakeFiles/TP2.dir/main.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex1.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex1.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex1.cpp.o.d
@@ -274,8 +239,6 @@ build CMakeFiles/TP2.dir/TP2/ex1.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex2.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex2.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex2.cpp.o.d
@@ -283,8 +246,6 @@ build CMakeFiles/TP2.dir/TP2/ex2.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex3.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex3.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex3.cpp.o.d
@@ -292,8 +253,6 @@ build CMakeFiles/TP2.dir/TP2/ex3.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex4.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex4.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex4.cpp.o.d
@@ -301,8 +260,6 @@ build CMakeFiles/TP2.dir/TP2/ex4.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex5.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex5.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex5.cpp.o.d
@@ -310,8 +267,6 @@ build CMakeFiles/TP2.dir/TP2/ex5.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex6.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex6.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex6.cpp.o.d
@@ -319,8 +274,6 @@ build CMakeFiles/TP2.dir/TP2/ex6.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 build CMakeFiles/TP2.dir/TP2/ex7.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP2/ex7.cpp || cmake_object_order_depends_target_TP2
   DEP_FILE = CMakeFiles/TP2.dir/TP2/ex7.cpp.o.d
@@ -328,8 +281,6 @@ build CMakeFiles/TP2.dir/TP2/ex7.cpp.o: CXX_COMPILER__TP2_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP2.dir
   OBJECT_FILE_DIR = CMakeFiles/TP2.dir/TP2
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
-  TARGET_PDB = TP2.pdb
 
 
 # =============================================================================
@@ -345,9 +296,8 @@ build TP2: CXX_EXECUTABLE_LINKER__TP2_Debug CMakeFiles/TP2.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP2.dir/
   TARGET_FILE = TP2
-  TARGET_PDB = TP2.pdb
+  TARGET_PDB = TP2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP3
@@ -364,8 +314,6 @@ build CMakeFiles/TP3.dir/main.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/MSTTestAux.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/MSTTestAux.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/MSTTestAux.cpp.o.d
@@ -373,8 +321,6 @@ build CMakeFiles/TP3.dir/TP3/MSTTestAux.cpp.o: CXX_COMPILER__TP3_Debug /home/jai
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex1.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex1.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex1.cpp.o.d
@@ -382,8 +328,6 @@ build CMakeFiles/TP3.dir/TP3/ex1.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex2.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex2.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex2.cpp.o.d
@@ -391,8 +335,6 @@ build CMakeFiles/TP3.dir/TP3/ex2.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex3.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex3.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex3.cpp.o.d
@@ -400,8 +342,6 @@ build CMakeFiles/TP3.dir/TP3/ex3.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex4.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex4.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex4.cpp.o.d
@@ -409,8 +349,6 @@ build CMakeFiles/TP3.dir/TP3/ex4.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex5.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex5.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex5.cpp.o.d
@@ -418,8 +356,6 @@ build CMakeFiles/TP3.dir/TP3/ex5.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex6.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex6.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex6.cpp.o.d
@@ -427,8 +363,6 @@ build CMakeFiles/TP3.dir/TP3/ex6.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 build CMakeFiles/TP3.dir/TP3/ex7.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP3/ex7.cpp || cmake_object_order_depends_target_TP3
   DEP_FILE = CMakeFiles/TP3.dir/TP3/ex7.cpp.o.d
@@ -436,8 +370,6 @@ build CMakeFiles/TP3.dir/TP3/ex7.cpp.o: CXX_COMPILER__TP3_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP3.dir
   OBJECT_FILE_DIR = CMakeFiles/TP3.dir/TP3
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
-  TARGET_PDB = TP3.pdb
 
 
 # =============================================================================
@@ -453,9 +385,8 @@ build TP3: CXX_EXECUTABLE_LINKER__TP3_Debug CMakeFiles/TP3.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP3.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP3.dir/
   TARGET_FILE = TP3
-  TARGET_PDB = TP3.pdb
+  TARGET_PDB = TP3.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP4
@@ -472,8 +403,6 @@ build CMakeFiles/TP4.dir/main.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex1.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex1.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex1.cpp.o.d
@@ -481,8 +410,6 @@ build CMakeFiles/TP4.dir/TP4/ex1.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex2.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex2.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex2.cpp.o.d
@@ -490,8 +417,6 @@ build CMakeFiles/TP4.dir/TP4/ex2.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex3.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex3.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex3.cpp.o.d
@@ -499,8 +424,6 @@ build CMakeFiles/TP4.dir/TP4/ex3.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex4.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex4.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex4.cpp.o.d
@@ -508,8 +431,6 @@ build CMakeFiles/TP4.dir/TP4/ex4.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex5.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex5.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex5.cpp.o.d
@@ -517,8 +438,6 @@ build CMakeFiles/TP4.dir/TP4/ex5.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 build CMakeFiles/TP4.dir/TP4/ex6.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP4/ex6.cpp || cmake_object_order_depends_target_TP4
   DEP_FILE = CMakeFiles/TP4.dir/TP4/ex6.cpp.o.d
@@ -526,8 +445,6 @@ build CMakeFiles/TP4.dir/TP4/ex6.cpp.o: CXX_COMPILER__TP4_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP4.dir
   OBJECT_FILE_DIR = CMakeFiles/TP4.dir/TP4
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
-  TARGET_PDB = TP4.pdb
 
 
 # =============================================================================
@@ -543,9 +460,8 @@ build TP4: CXX_EXECUTABLE_LINKER__TP4_Debug CMakeFiles/TP4.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP4.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP4.dir/
   TARGET_FILE = TP4
-  TARGET_PDB = TP4.pdb
+  TARGET_PDB = TP4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP5
@@ -562,8 +478,6 @@ build CMakeFiles/TP5.dir/main.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/TestAux.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/TestAux.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/TestAux.cpp.o.d
@@ -571,8 +485,6 @@ build CMakeFiles/TP5.dir/TP5/TestAux.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimef
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex1.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex1.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex1.cpp.o.d
@@ -580,8 +492,6 @@ build CMakeFiles/TP5.dir/TP5/ex1.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex10.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex10.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex10.cpp.o.d
@@ -589,8 +499,6 @@ build CMakeFiles/TP5.dir/TP5/ex10.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex11.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex11.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex11.cpp.o.d
@@ -598,8 +506,6 @@ build CMakeFiles/TP5.dir/TP5/ex11.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex12.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex12.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex12.cpp.o.d
@@ -607,8 +513,6 @@ build CMakeFiles/TP5.dir/TP5/ex12.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex2.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex2.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex2.cpp.o.d
@@ -616,8 +520,6 @@ build CMakeFiles/TP5.dir/TP5/ex2.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex3.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex3.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex3.cpp.o.d
@@ -625,8 +527,6 @@ build CMakeFiles/TP5.dir/TP5/ex3.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex4.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex4.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex4.cpp.o.d
@@ -634,8 +534,6 @@ build CMakeFiles/TP5.dir/TP5/ex4.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex5.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex5.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex5.cpp.o.d
@@ -643,8 +541,6 @@ build CMakeFiles/TP5.dir/TP5/ex5.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex6.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex6.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex6.cpp.o.d
@@ -652,8 +548,6 @@ build CMakeFiles/TP5.dir/TP5/ex6.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex7.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex7.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex7.cpp.o.d
@@ -661,8 +555,6 @@ build CMakeFiles/TP5.dir/TP5/ex7.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex8.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex8.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex8.cpp.o.d
@@ -670,8 +562,6 @@ build CMakeFiles/TP5.dir/TP5/ex8.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 build CMakeFiles/TP5.dir/TP5/ex9.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP5/ex9.cpp || cmake_object_order_depends_target_TP5
   DEP_FILE = CMakeFiles/TP5.dir/TP5/ex9.cpp.o.d
@@ -679,8 +569,6 @@ build CMakeFiles/TP5.dir/TP5/ex9.cpp.o: CXX_COMPILER__TP5_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP5.dir
   OBJECT_FILE_DIR = CMakeFiles/TP5.dir/TP5
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
-  TARGET_PDB = TP5.pdb
 
 
 # =============================================================================
@@ -696,9 +584,8 @@ build TP5: CXX_EXECUTABLE_LINKER__TP5_Debug CMakeFiles/TP5.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP5.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP5.dir/
   TARGET_FILE = TP5
-  TARGET_PDB = TP5.pdb
+  TARGET_PDB = TP5.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target TP7
@@ -715,8 +602,6 @@ build CMakeFiles/TP7.dir/main.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desk
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex1.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex1.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex1.cpp.o.d
@@ -724,8 +609,6 @@ build CMakeFiles/TP7.dir/TP7/ex1.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex2.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex2.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex2.cpp.o.d
@@ -733,8 +616,6 @@ build CMakeFiles/TP7.dir/TP7/ex2.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex3.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex3.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex3.cpp.o.d
@@ -742,8 +623,6 @@ build CMakeFiles/TP7.dir/TP7/ex3.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex4.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex4.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex4.cpp.o.d
@@ -751,8 +630,6 @@ build CMakeFiles/TP7.dir/TP7/ex4.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex5.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex5.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex5.cpp.o.d
@@ -760,8 +637,6 @@ build CMakeFiles/TP7.dir/TP7/ex5.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex6.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex6.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex6.cpp.o.d
@@ -769,8 +644,6 @@ build CMakeFiles/TP7.dir/TP7/ex6.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 build CMakeFiles/TP7.dir/TP7/ex7.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/Desktop/DA-QuickStart/TP7/ex7.cpp || cmake_object_order_depends_target_TP7
   DEP_FILE = CMakeFiles/TP7.dir/TP7/ex7.cpp.o.d
@@ -778,8 +651,6 @@ build CMakeFiles/TP7.dir/TP7/ex7.cpp.o: CXX_COMPILER__TP7_Debug /home/jaimefrf/D
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock
   OBJECT_DIR = CMakeFiles/TP7.dir
   OBJECT_FILE_DIR = CMakeFiles/TP7.dir/TP7
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
-  TARGET_PDB = TP7.pdb
 
 
 # =============================================================================
@@ -795,9 +666,8 @@ build TP7: CXX_EXECUTABLE_LINKER__TP7_Debug CMakeFiles/TP7.dir/main.cpp.o CMakeF
   OBJECT_DIR = CMakeFiles/TP7.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/TP7.dir/
   TARGET_FILE = TP7
-  TARGET_PDB = TP7.pdb
+  TARGET_PDB = TP7.dbg
 
 
 #############################################
@@ -954,8 +824,6 @@ build lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: 
   INCLUDES = -I/home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -I/home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest
   OBJECT_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src
-  TARGET_COMPILE_PDB = bin/libgmockd.pdb
-  TARGET_PDB = bin/libgmockd.pdb
 
 
 # =============================================================================
@@ -970,9 +838,8 @@ build lib/libgmockd.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googletest-mas
   OBJECT_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = bin/libgmockd.pdb
   TARGET_FILE = lib/libgmockd.a
-  TARGET_PDB = bin/libgmockd.pdb
+  TARGET_PDB = gmockd.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gmock_main
@@ -989,8 +856,6 @@ build lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest
   OBJECT_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src
-  TARGET_COMPILE_PDB = bin/libgmock_maind.pdb
-  TARGET_PDB = bin/libgmock_maind.pdb
 
 
 # =============================================================================
@@ -1005,9 +870,8 @@ build lib/libgmock_maind.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug lib/goog
   OBJECT_DIR = lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = bin/libgmock_maind.pdb
   TARGET_FILE = lib/libgmock_maind.a
-  TARGET_PDB = bin/libgmock_maind.pdb
+  TARGET_PDB = gmock_maind.a.dbg
 
 
 #############################################
@@ -1094,8 +958,6 @@ build lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: 
   INCLUDES = -I/home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -I/home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest
   OBJECT_DIR = lib/googletest-master/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = lib/googletest-master/googletest/CMakeFiles/gtest.dir/src
-  TARGET_COMPILE_PDB = bin/libgtestd.pdb
-  TARGET_PDB = bin/libgtestd.pdb
 
 
 # =============================================================================
@@ -1110,9 +972,8 @@ build lib/libgtestd.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest-mas
   OBJECT_DIR = lib/googletest-master/googletest/CMakeFiles/gtest.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = bin/libgtestd.pdb
   TARGET_FILE = lib/libgtestd.a
-  TARGET_PDB = bin/libgtestd.pdb
+  TARGET_PDB = gtestd.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gtest_main
@@ -1129,8 +990,6 @@ build lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.
   INCLUDES = -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/include -isystem /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest
   OBJECT_DIR = lib/googletest-master/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/src
-  TARGET_COMPILE_PDB = bin/libgtest_maind.pdb
-  TARGET_PDB = bin/libgtest_maind.pdb
 
 
 # =============================================================================
@@ -1145,9 +1004,8 @@ build lib/libgtest_maind.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug lib/goog
   OBJECT_DIR = lib/googletest-master/googletest/CMakeFiles/gtest_main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = bin/libgtest_maind.pdb
   TARGET_FILE = lib/libgtest_maind.a
-  TARGET_PDB = bin/libgtest_maind.pdb
+  TARGET_PDB = gtest_maind.a.dbg
 
 
 #############################################
@@ -1289,14 +1147,14 @@ build /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/cmake.ve
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/cmake.verify_globs | /home/jaimefrf/Desktop/DA-QuickStart/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/Config.cmake.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/internal_utils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDependentOption.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython/Support.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindThreads.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/GNUInstallDirs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/cmake.verify_globs | /home/jaimefrf/Desktop/DA-QuickStart/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/Config.cmake.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/internal_utils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDependentOption.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython/Support.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindThreads.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/GNUInstallDirs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/jaimefrf/Desktop/DA-QuickStart/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/Config.cmake.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/internal_utils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDependentOption.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython/Support.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindThreads.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/GNUInstallDirs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-Determine-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /home/jaimefrf/Desktop/DA-QuickStart/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googlemock/cmake/gmock_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/CMakeLists.txt /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/Config.cmake.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/gtest_main.pc.in /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master/googletest/cmake/internal_utils.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeDependentOption.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckLibraryExists.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPython/Support.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindThreads.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/GNUInstallDirs.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /snap/clion/222/bin/cmake/linux/x64/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

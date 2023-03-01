@@ -1,4 +1,4 @@
-# Install script for directory: /home/jaime/Desktop/DA-desenho algoritmos
+# Install script for directory: /home/jaimefrf/Desktop/DA-QuickStart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jaime/Desktop/DA-desenho algoritmos/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("/home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jaime/Desktop/DA-desenho algoritmos/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
