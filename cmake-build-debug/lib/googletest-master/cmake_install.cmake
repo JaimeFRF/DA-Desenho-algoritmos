@@ -1,4 +1,4 @@
-# Install script for directory: /home/jaimefrf/Desktop/DA-QuickStart/lib/googletest-master
+# Install script for directory: /home/jaime/Desktop/DA-desenho algoritmos/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jaimefrf/Desktop/DA-QuickStart/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/jaime/Desktop/DA-desenho algoritmos/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 
