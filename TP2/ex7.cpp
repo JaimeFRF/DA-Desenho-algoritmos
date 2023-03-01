@@ -5,8 +5,39 @@
 #include <algorithm> // std::next_permutation
 
 unsigned int tspBF(const unsigned int **dists, unsigned int n, unsigned int path[]) {
-    // TODO
-    return 0;
+    int source = 0;
+    std::vector<unsigned int> nodes;
+    unsigned int helper[n];
+    helper[0] = 0;
+    path[0] = 0;
+    for(int i = 0; i < n; i++){
+        if(i != source){
+            nodes.push_back(i);
+        }
+    }
+
+    int h = nodes.size();
+    int shortest_path = INT16_MAX;
+
+    while(std::next_permutation(nodes.begin(), nodes.end())){
+        int path_weight = 0;
+        int j = source;
+        for(int i = 0; i < h; i++){
+            path_weight += dists[j][nodes[i]];
+            j = nodes[i];
+            helper[i + 1] = j;
+        }
+        path_weight += dists[j][source];
+        if(shortest_path > path_weight){
+           for(int i = 1; i < n; i++){
+               path[i] = helper[i];
+           }
+            shortest_path = path_weight;
+        }
+
+    }
+
+    return shortest_path;
 }
 
 /// TESTS ///
