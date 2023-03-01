@@ -1,10 +1,40 @@
 // By: Gonçalo Leão
 
 #include "exercises.h"
-
+#include <iostream>
 unsigned int knapsackBF(unsigned int values[], unsigned int weights[], unsigned int n, unsigned int maxWeight, bool usedItems[]) {
-    // TODO
-    return 0;
+
+    for(int i = 0; i < n;i++){
+        usedItems[i] = false;
+    }
+    unsigned int K[n + 1][maxWeight + 1];
+
+    for(int i = 0; i <= n; i++){
+        for(int j = 0; j <= maxWeight; j++){
+            if(i == 0 || j == 0)
+                K[i][j] = 0;
+            else if(weights[i - 1] <= maxWeight && (j >= weights[i - 1])){
+                unsigned int temp = std::max(K[i - 1][j], values[i - 1] + K[i - 1][j - weights[i - 1]]);
+                K[i][j] = temp;
+            }
+            else
+                K[i][j] = K[i - 1][j];
+        }
+    }
+    int w = maxWeight;
+    int res =K[n][maxWeight];
+    for (int i = n; i > 0 && res > 0; i--) {
+
+        if (res == K[i - 1][w])
+            continue;
+        else {
+                res = res - values[i - 1];
+                w = w - weights[i - 1];
+                usedItems[i - 1]  =true;
+        }
+    }
+
+    return K[n][maxWeight];
 }
 
 /// TESTS ///
