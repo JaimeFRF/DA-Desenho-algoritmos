@@ -3,7 +3,7 @@
 #include "exercises.h"
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    if(T == 0)
+    if(T == 0) // change loop condition to continue until T is less than or equal to 0
         return true;
 
     for(int i = (n - 1); i >= 0; i--){
@@ -91,8 +91,8 @@ TEST(TP2_Ex4, hasBFChangeNonCanonical) {
     usedCoins[1] = 0;
     usedCoins[2] = 0;
     Stock2[0] = 8;
-    Stock[1] = 2;
-    Stock[2] = 1;
+    Stock2[1] = 2;
+    Stock2[2] = 1;
     EXPECT_EQ(changeMakingBF(C,Stock2,n,8,usedCoins), true);
     EXPECT_EQ(usedCoins[0], 0);
     EXPECT_EQ(usedCoins[1], 2);

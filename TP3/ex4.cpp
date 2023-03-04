@@ -4,9 +4,49 @@
 
 #include <algorithm>
 
+struct Product{
+    double value;
+    double weight;
+    double relation;
+    int id;
+};
+
+bool productCompare(Product p1, Product p2){
+    return (p1.relation > p2.relation);
+}
+
 double fractionalKnapsackGR(unsigned int values[], unsigned int weights[], unsigned int n, unsigned int maxWeight, double usedItems[]) {
-    // TODO
-    return 0.0;
+
+    double res = 0.0;
+    std::vector<Product> products;
+
+    for(int i = 0; i < n; i++){
+        Product product;
+        product.id = i;
+        product.value = values[i];
+        product.weight = weights[i];
+        product.relation = values[i] / weights[i];
+        products.push_back(product);
+    }
+    std::sort(products.begin(), products.end(), productCompare);
+
+
+
+    for(Product product : products){
+        if(product.weight <= maxWeight){
+            maxWeight -= product.weight;
+            usedItems[product.id]++;
+            res += product.value;
+        }
+        else{
+            double aux = (double)maxWeight / product.weight;
+            res += aux * product.value;
+            usedItems[product.id] = aux;
+            maxWeight -= (aux * (double)product.weight);
+        }
+    }
+
+    return res;
 }
 
 /// TESTS ///

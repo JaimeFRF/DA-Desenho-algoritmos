@@ -3,9 +3,21 @@
 #include "exercises.h"
 
 bool changeMakingGR(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    // TODO
-    return false;
+
+    for(int i = 0; i < n; i++){usedCoins[i] = 0;}
+
+
+    for(int i = n - 1; i >= 0; i--){
+        while(T >= C[i] && Stock[i] > 0){
+            Stock[i]--;
+            T -= C[i];
+            usedCoins[i]++;
+        }
+
+    }
+    return(T == 0);
 }
+
 
 
 /// TESTS ///
