@@ -5,8 +5,42 @@
 #include "MSTTestAux.h"
 #include "../data_structures/UFDS.h"
 
+bool cmp(Edge* ed1, Edge* ed2){
+    return ed1->getWeight() < ed2->getWeight();
+}
+
+void GreedyGraph::dfsKruskalPath(Vertex *v) {
+    v->setVisited(true);
+    for(Edge* edge : v->getAdj()){
+        if((!edge->getDest()->isVisited()) && (edge->isSelected() || edge->getReverse()->isSelected())){
+            edge->getDest()->setPath(edge);
+            dfsKruskalPath(edge->getDest());
+        }
+    }
+}
+
 std::vector<Vertex *> GreedyGraph::kruskal() {
-    // TODO
+
+    std::vector<Edge*> edges;
+    UFDS ufds(vertexSet.size() );
+
+
+    for(Vertex* vertex : vertexSet){
+        for(Edge* edge : vertex->getAdj()){
+            edges.push_back(edge);
+        }
+    }
+    sort(edges.begin(), edges.end(), cmp);
+
+    for(Edge* edge : edges){
+            if(!ufds.isSameSet(edge->getOrig()->getId(), edge->getDest()->getId())){
+            ufds.linkSets(edge->getOrig()->getId(), edge->getDest()->getId());
+            edge->setSelected(true);
+        }
+    }
+
+    dfsKruskalPath(vertexSet[0]);
+
     return vertexSet;
 }
 

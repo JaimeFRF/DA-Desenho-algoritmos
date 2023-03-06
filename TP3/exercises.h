@@ -38,7 +38,8 @@ public:
     // Ex 7
     void edmondsKarp(int source, int target);
 protected:
-    // TODO: Add auxiliary methods if needed
+    void dfsKruskalPath(Vertex* v);
+
 };
 
 #endif //DA_TP3_CLASSES_EXERCISES_H

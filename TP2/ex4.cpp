@@ -3,22 +3,52 @@
 #include "exercises.h"
 
 bool changeMakingBF(unsigned int C[], unsigned int Stock[], unsigned int n, unsigned int T, unsigned int usedCoins[]) {
-    if(T == 0) // change loop condition to continue until T is less than or equal to 0
-        return true;
-
-    for(int i = (n - 1); i >= 0; i--){
-        if(Stock[i] == 0 || C[i] > T)
-            continue;
-        Stock[i]--;
-        usedCoins[i]++;
-        if(changeMakingBF(C, Stock, n, T - C[i], usedCoins)){
-            return true;
-        }
-        Stock[i]++;
-        usedCoins[i]--;
+    // Static memory allocation is used since it's faster but this assumes there are at most 20 coin values (n <= 20).
+    unsigned int curCandidate[20]; // current solution candidate being built
+    // Prepare the first candidate
+    for(unsigned int i = 0; i < n; i++) {
+        curCandidate[i] = 0;
     }
+    // Iterate over all the candidates
+    bool foundSol = false;
+    unsigned int minCoins; // value of the best solution found so far
+    while (true) {
+        // Verify if the candidate is a solution
+        unsigned int totalValue = 0;
+        unsigned int totalCoins = 0;
+        for(unsigned int k = 0; k < n; k++) {
+            totalValue += C[k]*curCandidate[k];
+            totalCoins += curCandidate[k];
+        }
+        if(totalValue == T) {
+            // Check if the solution is better than the previous one (or if it's the first one)
+            if(!foundSol || totalCoins < minCoins) {
+                foundSol = true;
+                minCoins = totalCoins;
+                for(unsigned int k = 0; k < n; k++) {
+                    usedCoins[k] = curCandidate[k];
+                }
+            }
+        }
 
-    return false;
+        // Get the next candidate
+        unsigned int curIndex = 0;
+        while(curCandidate[curIndex] == Stock[curIndex]) {
+            curIndex++;
+            if(curIndex == n) break;
+        }
+        if(curIndex == n) break;
+        // Set the stock of the higher coin values in the candidate solution back to 0.
+        // Example with 1 stock per coin value: 1 1 0 1 -> 0 0 1 1.
+        // Enumeration of the 8 candidates for 3 coin values with 0-1 stock:
+        // 0 0 0 -> 1 0 0 -> 0 1 0 -> 1 1 0 -> 0 0 1 -> 1 0 1 -> 0 1 1 -> 1 1 1
+        // (it's like incrementing by 1 numbers in binary written backwards)
+        for(unsigned int i = 0; i < curIndex; i++) {
+            curCandidate[i] = 0;
+        }
+        curCandidate[curIndex]++;
+    }
+    return foundSol;
 }
 
 /// TESTS ///
